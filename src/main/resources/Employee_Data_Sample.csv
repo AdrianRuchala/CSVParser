@@ -1,0 +1,51 @@
+Employee Code,First Name,Last Name,Position,Department,Email,Phone
+AABCDXXX,Piotr,Mynarczyk,IT Manager,IT,piotr.wolniak@examplecorp.com,796-134-710
+AABCDGCO,Marek,Szymanski,System Administrator,IT,marek.szymanski@examplecorp.com,581-262-688
+AABCDSZN,Marek,Dabrowski,System Administrator,IT,marek.dabrowski@examplecorp.com,735-578-981
+AABCDVXS,Kasia,Lewandowski,Software Engineer,IT,kasia.lewandowski@examplecorp.com,556-814-775
+AABCDRWC,Piotr,Kamilski,System Administrator,IT,piotr.kamlski@examplecorp.com,531-694-912
+AABCDAZQ,Anna,Winiewski,DevOps Engineer,IT,anna.wianiewski@examplecorp.com,586-912-325
+AABCDHQZ,Ewa,Nowak,Software Engineer,IT,ewa.nowak@examplecorp.com,709-987-554
+AABCDZIC,Piotr,Woniak,Software Engineer,IT,piotr.woaniak@examplecorp.com,544-624-171
+AABCDJAJ,Ola,Woniak,System Administrator,IT,ola.woaniak@examplecorp.com,618-803-140
+AABCDKOE,Tomasz,Winiewski,Software Engineer,IT,tomasz.wianiewski@examplecorp.com,571-574-500
+AABCDJOY,Anna,Kowalski,Software Engineer,IT,anna.kowalski@examplecorp.com,680-880-179
+AABCDRWD,Magda,Kamiski,Software Engineer,IT,magda.kamiaski@examplecorp.com,616-888-373
+AABCDMDO,Pawe,Kamiski,System Administrator,IT,pawea.kamiaski@examplecorp.com,724-275-813
+AABCDBRE,Ewa,Winiewski,System Administrator,IT,ewa.wianiewski@examplecorp.com,678-999-150
+AABCDJVK,Ewa,Wjcik,DevOps Engineer,IT,ewa.wajcik@examplecorp.com,664-135-213
+AABCDIID,Pawe,Kamiski,Software Engineer,IT,pawea.kamiaski@examplecorp.com,648-395-974
+AABCDEDF,Kasia,Szymaski,DevOps Engineer,IT,kasia.szymaaski@examplecorp.com,625-263-922
+AABCDYOV,Anna,Dbrowski,Software Engineer,IT,anna.dabrowski@examplecorp.com,540-478-168
+AABCDLKU,Marek,Kowalski,DevOps Engineer,IT,marek.kowalski@examplecorp.com,524-693-113
+AABCDSVF,Piotr,Nowak,System Administrator,IT,piotr.nowak@examplecorp.com,705-461-751
+BBEFGXXX,Tomasz,Kowalski,HR Manager,HR,tomasz.kowalski@examplecorp.com,531-617-805
+BBEFGCVG,Marek,Szymaski,HR Specialist,HR,marek.szymaaski@examplecorp.com,506-519-112
+BBEFGMTG,Ola,Lewandowski,HR Coordinator,HR,ola.lewandowski@examplecorp.com,790-281-833
+BBEFGSCF,Jan,Woniak,Recruiter,HR,jan.woaniak@examplecorp.com,531-324-844
+BBEFGCIN,Marek,Szymaski,HR Coordinator,HR,marek.szymaaski@examplecorp.com,514-301-510
+BBEFGDZE,Ola,Woniak,HR Coordinator,HR,ola.woaniak@examplecorp.com,568-117-341
+BBEFGWRS,Jan,Lewandowski,HR Specialist,HR,jan.lewandowski@examplecorp.com,673-174-609
+BBEFGZPY,Anna,Zieliski,HR Coordinator,HR,anna.zieliaski@examplecorp.com,770-566-216
+BBEFGUFE,Jan,Zieliski,HR Specialist,HR,jan.zieliaski@examplecorp.com,549-612-636
+BBEFGRVB,Ewa,Kamiski,Recruiter,HR,ewa.kamiaski@examplecorp.com,798-373-708
+BBEFGJHG,Anna,Nowak,HR Specialist,HR,anna.nowak@examplecorp.com,686-161-862
+BBEFGVBQ,Jan,Zieliski,HR Specialist,HR,jan.zieliaski@examplecorp.com,654-959-602
+BBEFGITQ,Pawe,Lewandowski,HR Coordinator,HR,pawea.lewandowski@examplecorp.com,596-810-106
+BBEFGRGV,Kasia,Kowalski,HR Coordinator,HR,kasia.kowalski@examplecorp.com,619-672-138
+BBEFGOGZ,Jan,Szymaski,HR Coordinator,HR,jan.szymaaski@examplecorp.com,647-783-748
+BBEFGHVL,Ola,Wjcik,Recruiter,HR,ola.wajcik@examplecorp.com,633-747-399
+BBEFGQOR,Ewa,Zieliski,HR Coordinator,HR,ewa.zieliaski@examplecorp.com,624-289-868
+BBEFGICW,Ewa,Zieliski,Recruiter,HR,ewa.zieliaski@examplecorp.com,709-773-502
+BBEFGERE,Ola,Wjcik,HR Specialist,HR,ola.wajcik@examplecorp.com,552-971-669
+BBEFGLBR,Pawe,Szymaski,HR Specialist,HR,pawea.szymaaski@examplecorp.com,713-757-680
+CCHIJXXX,Magda,Woniak,Marketing Manager,Marketing,magda.woaniak@examplecorp.com,697-176-427
+CCHIJFFV,Magda,Lewandowski,Marketing Analyst,Marketing,magda.lewandowski@examplecorp.com,604-132-864
+CCHIJFMF,Jan,Zieliski,Content Creator,Marketing,jan.zieliaski@examplecorp.com,575-976-712
+CCHIJJTQ,Marek,Winiewski,Content Creator,Marketing,marek.wianiewski@examplecorp.com,549-109-325
+CCHIJTQZ,Ewa,Winiewski,Marketing Analyst,Marketing,ewa.wianiewski@examplecorp.com,709-144-785
+CCHIJXAB,Pawe,Zieliski,SEO Specialist,Marketing,pawea.zieliaski@examplecorp.com,628-852-620
+CCHIJEBP,Tomasz,Nowak,SEO Specialist,Marketing,tomasz.nowak@examplecorp.com,704-653-952
+CCHIJPRI,Pawe,Lewandowski,SEO Specialist,Marketing,pawea.lewandowski@examplecorp.com,650-695-944
+CCHIJAHI,Ewa,Winiewski,Marketing Analyst,Marketing,ewa.wianiewski@examplecorp.com,596-506-260
+CCHIJLAF,Anna,Nowak,SEO Specialist,Marketing,anna.nowak@examplecorp.com,517-882-143
