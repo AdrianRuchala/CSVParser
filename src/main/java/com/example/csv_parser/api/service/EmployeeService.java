@@ -10,6 +10,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
 
 @Service
 public class EmployeeService {
@@ -61,5 +63,21 @@ public class EmployeeService {
 
     public List<Employee> getAllEmployees() {
         return employeeRepository.findAll();
+    }
+
+    public Optional<Employee> getEmployee(String id) {
+        return employeeRepository.findById(id);
+    }
+
+    public List<Employee> getEmployeesByDepartment(String department) {
+        List<Employee> allEmployeesList;
+        allEmployeesList = employeeRepository.findAll();
+        List<Employee> employeesList = new ArrayList<>(List.of());
+        for (Employee employee: allEmployeesList) {
+            if(Objects.equals(employee.getDepartment(), department.toUpperCase())){
+                employeesList.add(employee);
+            }
+        }
+        return employeesList;
     }
 }
