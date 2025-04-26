@@ -6,6 +6,7 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.stereotype.Service;
+
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -73,11 +74,31 @@ public class EmployeeService {
         List<Employee> allEmployeesList;
         allEmployeesList = employeeRepository.findAll();
         List<Employee> employeesList = new ArrayList<>(List.of());
-        for (Employee employee: allEmployeesList) {
-            if(Objects.equals(employee.getDepartment(), department.toUpperCase())){
+        for (Employee employee : allEmployeesList) {
+            if (Objects.equals(employee.getDepartment(), department.toUpperCase())) {
                 employeesList.add(employee);
             }
         }
         return employeesList;
+    }
+
+    public void addNewEmployee(Employee employee) {
+        employeeRepository.save(employee);
+    }
+
+    public List<Employee> getDepartmentsManagers() {
+        List<Employee> allEmployeesList;
+        allEmployeesList = employeeRepository.findAll();
+        List<Employee> managersList = new ArrayList<>(List.of());
+        for (Employee employee : allEmployeesList) {
+            if (employee.getPosition().toLowerCase().contains("manager")) {
+                managersList.add(employee);
+            }
+        }
+        return managersList;
+    }
+
+    public void deleteEmployee(String employeeCode) {
+        employeeRepository.deleteById(employeeCode);
     }
 }

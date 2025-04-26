@@ -33,10 +33,27 @@ public class CsvParserController {
         return employeeService.getEmployeesByDepartment(department);
     }
 
+    @GetMapping("/managers")
+    public List<Employee> getDepartmentsManagers() {
+        return employeeService.getDepartmentsManagers();
+    }
+
     @PostMapping("/import")
     public ResponseEntity<String> importEmployeesFromCsv() {
         employeeService.importFromCsv();
         return ResponseEntity.ok("CSV import triggered");
+    }
+
+    @PostMapping
+    public ResponseEntity<String> addNewEmployee(@RequestBody Employee employee) {
+        employeeService.addNewEmployee(employee);
+        return ResponseEntity.ok("New employee added successfully");
+    }
+
+    @DeleteMapping("/{employeeCode}")
+    public ResponseEntity<String> deleteEmployee(@PathVariable String employeeCode) {
+        employeeService.deleteEmployee(employeeCode);
+        return ResponseEntity.ok("Employee deleted successfully");
     }
 
 }
